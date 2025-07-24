@@ -3,7 +3,7 @@ import {Card} from './Card'
 
 export const CardsContainer = () => {
     return (
-        <div className="w-full h-full grid grid-rows-2 grid-cols-5">
+        <div className="w-300 h-full grid grid-rows-2 grid-cols-5">
             {songs.map((song, index)=> (
                 <Card 
                     key={index} 
