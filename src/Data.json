@@ -1,0 +1,63 @@
+[
+    {
+        "title": "Africa",
+        "artist": "Toto",
+        "album": "Toto IV",
+        "image": "/images/toto_iv.jpg"
+    },
+    {
+        "title": "Lady Writer",
+        "artist": "Dire Straits",
+        "album": "Communiqué",
+        "image": "/images/communique.jpg"
+    },
+    {
+        "title": "Long Cool Woman",
+        "artist": "The Hollies",
+        "album": "Distant Light",
+        "image": "/images/distant_light.jpg"
+    },
+    {
+        "title": "Gimme Shelter",
+        "artist": "The Rolling Stones",
+        "album": "Let It Bleed",
+        "image": "/images/let_it_bleed.jpg"
+    },
+    {
+        "title": "Everybody Wants To Rule The World",
+        "artist": "Tears For Fears",
+        "album": "Songs From The Big Chair",
+        "image": "/images/songs_from_the_big_chair.jpg"
+    },
+    {
+        "title": "And She Was",
+        "artist": "Talking Heads",
+        "album": "Little Creatures",
+        "image": "/images/little_creatures.jpg"
+    },
+    {
+        "title": "The Caves Of Altamira",
+        "artist": "Steely Dan",
+        "album": "The Royal Scam",
+        "image": "/images/the_royal_scam.jpg"
+    },
+    {
+        "title": "Don't Stop",
+        "artist": "Fleetwood Mac",
+        "album": "Rumours",
+        "image": "/images/rumours.jpg"
+    },
+    {
+        "title": "(Love Is Like A) Heat Wave",
+        "artist": "The Who",
+        "album": "My Generation",
+        "image": "/images/my_generation.jpg"
+    },
+    {
+        "title": "Money",
+        "artist": "Pink Floyd",
+        "album": "The Dark Side Of The Moon",
+        "image": "/images/the_dark_side_of_the_moon.jpg"
+    }
+
+]
