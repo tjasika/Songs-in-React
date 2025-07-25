@@ -19,6 +19,8 @@ The Display is a parent component for CardsContainer and NowPlaying, allowing me
 I think it's obvious where the design style inspiration came from - **Spotify**. I played around with TailwindCSS to style the cards and display them in a 2x5 grid. The *play* and *pause* icons are from **Bootstrap Icons** (I used the svg element code). This was the main styling (before adding the play logic):
 ![Screenshot of the project](github_assets/screenshot1.png)
 
+And now you learned a little something about what kind of music I like :)
+
 ### Issues and possible improvements
 - While basic playback works, I haven’t customized the <audio> element’s appearance yet. Tailwind doesn’t directly support styling native audio controls, so improving this might require a custom audio player or third-party library.  
 - Currently, clicking a song toggles its selection — but does not toggle playback. Clicking the same song again simply hides the "Now Playing" section instead of pausing it.
