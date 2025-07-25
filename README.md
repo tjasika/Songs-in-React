@@ -8,5 +8,5 @@ I think it's obvious where the design style inspiration came from - **Spotify**.
 ![Screenshot of the project](github_assets/screenshot1.png)
 
 ### Play logic
-Just like with Spotify, I wanted to add a >now playing< section, that only appears when a song is selected.
+Just like with Spotify, I wanted to add a > now playing section, that only appears when a song is selected.
 ![Screenshot of the project](github_assets/screenshot2.png)
