@@ -6,3 +6,7 @@ The song data is found in the *songs.json* file.
 ### Styling
 I think it's obvious where the design style inspiration came from - **Spotify**. I played around with TailwindCSS to style the cards and display them in a 2x5 grid. The *play* and *pause* icons are from **Bootstrap Icons** (I used the svg element code). This was the main styling (before adding the play logic):
 ![Screenshot of the project](github_assets/screenshot1.png)
+
+### Play logic
+Just like with Spotify, I wanted to add a > now playing section, that only appears when a song is selected.
+![Screenshot of the project](github_assets/screenshot2.png)
