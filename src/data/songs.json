@@ -3,7 +3,8 @@
         "title": "Africa",
         "artist": "Toto",
         "album": "Toto IV",
-        "image": "/images/toto_iv.jpg"
+        "image": "/images/toto_iv.jpg",
+        "audio": "/audio/song3.mp3"
     },
     {
         "title": "Lady Writer",
@@ -27,7 +28,8 @@
         "title": "Everybody Wants To Rule The World",
         "artist": "Tears For Fears",
         "album": "Songs From The Big Chair",
-        "image": "/images/songs_from_the_big_chair.jpg"
+        "image": "/images/songs_from_the_big_chair.jpg",
+        "audio": "/audio/song1.mp3"
     },
     {
         "title": "And She Was",
@@ -45,7 +47,8 @@
         "title": "Don't Stop",
         "artist": "Fleetwood Mac",
         "album": "Rumours",
-        "image": "/images/rumours.jpg"
+        "image": "/images/rumours.jpg",
+        "audio": "/audio/song2.mp3"
     },
     {
         "title": "(Love Is Like A) Heat Wave",
