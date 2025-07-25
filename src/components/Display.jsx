@@ -8,7 +8,7 @@ export const Display = () => {
     const selectedSong = selectedIndex !== null ? songs[selectedIndex] : null;
 
     return (
-        <div className='h-full w-full flex flex-col justify-center items-center'>
+        <div className='h-full w-full flex flex-row justify-center items-center'>
             <CardsContainer songs={songs} selectedIndex={selectedIndex} setSelectedIndex={setSelectedIndex} />
             <NowPlaying song={songs[selectedIndex]}/>
         </div>
