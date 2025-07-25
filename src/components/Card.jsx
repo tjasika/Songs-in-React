@@ -9,13 +9,14 @@ export const Card = ({title, artist, album, image, onSelect, isSelected}) => {
     return (
             <div 
             onClick = {handleClick}
-            className={`w-50 h-70 shadow-xl rounded-lg 
+            className={`w-45 h-60 shadow-xl rounded-lg 
                   flex flex-col justify-center items-center
                   transition-transform duration-300 hover:-translate-y-2
                   group relative
                   cursor-pointer
                   ${isSelected ? 'bg-zinc-700' : 'bg-zinc-900 hover:bg-zinc-700'}`}>
-                <div className="relative w-45 h-45">
+
+                <div className="relative w-40 h-40">
                     {isSelected ? (
                          <svg xmlns="http://www.w3.org/2000/svg"
                             fill="currentColor" 
@@ -37,8 +38,8 @@ export const Card = ({title, artist, album, image, onSelect, isSelected}) => {
 
                     <img src={image} className="w-full h-full rounded-sm object-cover z-0"></img>
                 </div>
-                <div className='w-45 text-gray-200 pt-2'>
-                    <h1 className='font-bold text-lg truncate'>{title}</h1>
+                <div className='w-40 text-gray-200'>
+                    <h1 className='font-bold truncate'>{title}</h1>
                     <h3 className='text-sm truncate'>{artist}</h3>
                     <p className='text-sm text-zinc-500 truncate'>{album}</p>
                 </div>

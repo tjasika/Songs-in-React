@@ -1,9 +1,7 @@
-import songs from '../data/songs.json';
 import { useState } from 'react';
 import {Card} from './Card'
 
-export const CardsContainer = () => {
-    const [selectedIndex, setSelectedIndex] = useState(null);
+export const CardsContainer = ({songs, selectedIndex, setSelectedIndex}) => {
     const handleSelect = (isSelected, index) => {
         if(isSelected) {
             setSelectedIndex(null);
@@ -13,7 +11,7 @@ export const CardsContainer = () => {
     }
 
     return (
-        <div className="w-300 h-full grid grid-rows-2 grid-cols-5">
+        <div className="w-300 h-full grid grid-rows-2 grid-cols-5 gap-5">
             {songs.map((song, index)=> (
                 <Card 
                     key={index} 
@@ -22,7 +20,7 @@ export const CardsContainer = () => {
                     album ={song.album}
                     image={song.image}
                     isSelected={selectedIndex === index}
-                    onSelect={()=> {handleSelect(selectedIndex === index,index)}}
+                    onSelect={()=>{handleSelect(selectedIndex === index,index)}}
                 />
             ))}
         </div>
