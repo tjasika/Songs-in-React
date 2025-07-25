@@ -1,5 +1,3 @@
-import { useState } from 'react'
-
 export const Card = ({title, artist, album, image, onSelect, isSelected}) => {
     
     const handleClick = () => {
